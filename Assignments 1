@@ -29,7 +29,7 @@ Ans :  23
 7. What should the values of the following two terms be?
 'spam' + 'spamspam'
 'spam' * 3
-Ans :  'spamspamspam'
+Ans :  'spamspamspam'  #Earlier output of 'spam'+ 'spamspam' is over written by 'spam' * 3
 8. Why is it that eggs is a true variable name but 100 is not?
 Ans : Variable name must starts with a character and can’t be a number. So eggs can be a variable name , but 100 is not a valid variable name.
 9. Which of the following three functions may be used to convert a value to an integer, a floating-point number, or a string?
