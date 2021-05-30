@@ -1,0 +1,118 @@
+Table Creation:  http://127.0.0.1:5000/db_create
+=================
+Cassandra :
+{
+    "db_name":"cassandra",
+    "tab_name":"emp1",
+    "col1": "emp_id",
+    "col1_type":"int PRIMARY KEY",
+    "col2": "ename",
+    "col2_type":"text",
+    "col3":"doj",
+    "col3_type":"timestamp",
+    "col4":"sal",
+    "col4_type":"float"
+}
+MySQL:
+{
+    "db_name":"sql",
+    "tab_name":"emp1",
+    "col1": "emp_id",
+    "col1_type":"INT(8) PRIMARY KEY",
+    "col2": "ename",
+    "col2_type":"varchar(30)",
+    "col3":"doj",
+    "col3_type":"datetime",
+    "col4":"sal",
+    "col4_type":"float"
+}
+
+Insert Query:  http://127.0.0.1:5000/db_insert
+==============
+Cassandra :
+{
+    "db_name":"cassandra",
+    "tab_name":"emp1",
+    "emp_id": 1234,
+    "ename": "sudh",
+    "doj":"2018-11-23 11:20:22",
+    "sal":15007.34    
+}
+MySQL:
+{
+    "db_name":"sql",
+    "tab_name":"emp1",
+    "emp_id": 1234,
+    "ename": "sudh",
+    "doj":"2018-11-23 11:20:22",
+    "sal":15007.34    
+}
+
+Update Query:   http://127.0.0.1:5000/db_update
+=================
+MySQL:
+{
+    "db_name":"sql",
+    "tab_name":"emp1",
+    "emp_id": 1234,
+    "sal":15007.34    
+}
+
+Cassandra :
+{
+    "db_name":"cassandra",
+    "tab_name":"emp1",
+    "emp_id": 1234,
+    "sal":15007.34    
+}
+
+Bulk Update: http://127.0.0.1:5000/db_bulkupdate
+=============
+MySQL:
+{
+    "db_name":"sql",
+    "tab_name":"emp1"
+}
+
+Cassandra:
+{
+    "db_name":"cassandra",
+    "tab_name":"emp1"
+}
+
+Delete Record : http://127.0.0.1:5000/db_deleterecord
+================
+MySQL:
+{
+    "db_name":"sql",
+    "tab_name":"emp1",
+	"emp_id":1242
+}
+Cassandra:
+{
+    "db_name":"cassandra",
+    "tab_name":"emp1",
+	"emp_id":1242
+}
+
+Download Record: http://127.0.0.1:5000/db_downloadData
+================
+MySQL:
+{
+    "db_name":"sql",
+    "tab_name":"emp1"
+	
+}
+
+Cassandra:
+{
+    "db_name":"cassandra",
+    "tab_name":"emp1"
+	
+}
+
+
+
+
+
+
